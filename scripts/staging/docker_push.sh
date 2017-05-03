@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Login to docker
+# Login to dockerr
 docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 
 # Push only if it's not a pull request
